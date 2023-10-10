@@ -1,4 +1,4 @@
-## Open Sourse Lecture Week 6 HomeWork
+## Open Source Lecture Week 6 HomeWork
 
 Introduction: This document is a lecture note about Shell command and Git program.  
 Please skip this file if this is not your interest.  
