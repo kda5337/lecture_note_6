@@ -35,4 +35,14 @@ It is the elaborate way for sharing work.
 
 ![version control](https://github.com/kda5337/lecture_note_5-2/assets/144139251/2dc1bd8a-4241-4fd5-a144-543e8fa13e37)  
 
-**3. **  
+**3. Git configuration: Three levels**  
+1. System level: --system option. have priority(top). Affects all users and repositories on the system, so it need **administrative authority**.
+2. Global (user) level: -- global option. Affects all repositories of a current user.
+3. Local level: -- local option. Specific to the current repository
+
+**4. Shell command: git int**  
+This command initialized empty Git repository by creating new sub-repository.  
+This new repository named in this format: .(name)  
+
+**5. Shell command: git status**  
+
