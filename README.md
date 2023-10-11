@@ -45,4 +45,21 @@ This command initialized empty Git repository by creating new sub-repository.
 This new repository named in this format: .(name)  
 
 **5. Shell command: git status**  
+Checking which status does current repository on among three status we mentioned above.  
 
+**6. Shell command: git add [file_name]**  
+Use this command if you want to put any repository on staging area.  
+**Extra: git add.**  
+If you want to put all of directory(manby files, too) into staging area, use this command.  
+
+**7. Shell command: git rm --cached [file_name]**  
+It totally constrat with git add command, b/c it unstages a file that will be in [file_name].  
+***Caution*** You must put **cached**, b/c without it, it is just command that delete the file.  
+###TIPS: Ignore  
+It is convenient way to unstage several files at the same time.  
+
+
+
+**8. Shell command: git commit -m "commit message"**  
+This is final stage, it means snapshot(=save the changes as specific version).  
+In "commit message" part, put explanation about what this commit is about.  
