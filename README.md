@@ -35,6 +35,9 @@ It is the elaborate way for sharing work.
 
 ![version control](https://github.com/kda5337/lecture_note_5-2/assets/144139251/2dc1bd8a-4241-4fd5-a144-543e8fa13e37)  
 
+##Extra: three status of Git    
+![three status of git](https://github.com/kda5337/lecture_note_6/assets/144139251/21f05278-5371-4591-a2ba-b5373dd89065)
+
 **3. Git configuration: Three levels**  
 1. System level: --system option. have priority(top). Affects all users and repositories on the system, so it need **administrative authority**.
 2. Global (user) level: -- global option. Affects all repositories of a current user.
@@ -55,11 +58,22 @@ If you want to put all of directory(manby files, too) into staging area, use thi
 **7. Shell command: git rm --cached [file_name]**  
 It totally constrat with git add command, b/c it unstages a file that will be in [file_name].  
 ***Caution*** You must put **cached**, b/c without it, it is just command that delete the file.  
-###TIPS: Ignore  
-It is convenient way to unstage several files at the same time.  
-
+### TIPS: Ignore  
+It is convenient way to unstage several files at the same time for certain current repository.  
+![tips: ignore](https://github.com/kda5337/lecture_note_6/assets/144139251/b8a753b3-cc28-41ec-bdf6-81f9f21f38b8)  
+**CAUTION** .gitignore is not command!!  
+It creat hidden file and put file names that you do not want to stage or even commit.  
 
 
 **8. Shell command: git commit -m "commit message"**  
 This is final stage, it means snapshot(=save the changes as specific version).  
 In "commit message" part, put explanation about what this commit is about.  
+**EXTRA: command "git log"**  
+You can check all of commit you have done.  
+
+---  
+
+**All of contents and pictures used on this markdown refers to Gachon University educational document**  
+**If you want to know more about reference. please contact me**
+
+**THANK YOU FOR READING THIS DOCUMENT**
